@@ -1,0 +1,17 @@
+.info-section {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.info-section h2 {
+  color: #007bff;
+}
+
+.info-section p {
+  margin: 20px 0;
+}
+
+.info-section img {
+  width: 100%;
+  border-radius: 10px;
+}

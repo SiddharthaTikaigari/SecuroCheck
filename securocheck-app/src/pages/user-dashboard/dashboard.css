@@ -1,0 +1,27 @@
+/* Dashboard.css */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f1f3f6;
+}
+
+.dashboard-body {
+  display: flex; /* sidebar and postfeed side by side */
+  flex: 1;       /* take remaining space below header */
+  overflow: hidden;
+}
+
+/* Sidebar takes fixed width, PostFeed fills the rest */
+.dashboard-body .sidebar {
+  flex: 0 0 220px;
+  height: calc(100vh - 70px - 60px); /* adjust for header + footer height */
+  overflow-y: auto;
+}
+
+.dashboard-body .post-feed {
+  flex: 1;
+  height: calc(100vh - 70px - 60px);
+  overflow-y: auto;
+}
