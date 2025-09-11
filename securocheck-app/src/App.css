@@ -1,0 +1,13 @@
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+@media (max-width: 900px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
